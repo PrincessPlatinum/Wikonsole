@@ -10,6 +10,6 @@
 
     //is the right page?
     if (mw.config.get('wgPageName') == 'Special:Console') {
-        wc.init;
+        wc.init();
     }
 });
