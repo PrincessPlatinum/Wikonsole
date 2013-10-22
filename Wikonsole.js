@@ -8,8 +8,7 @@
             wc.print('Welcome to Wikonsole!');
         },
         print: function(message) {
-            var text = message.replace(/'/g, '\'');
-            $('#console-output').append('> <span class="output-line">' + text + '</span>');
+            $('#console-output').append('> <span class="output-line">' + message + '</span>');
         }
     };
 
