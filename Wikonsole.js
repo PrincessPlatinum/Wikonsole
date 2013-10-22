@@ -12,4 +12,4 @@
     if (mw.config.get('wgPageName') == 'Special:Console') {
         wc.init();
     }
-});
+})(jQuery);
